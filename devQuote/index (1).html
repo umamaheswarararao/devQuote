@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevQuote — Programming Wisdom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital@1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header>
+    <span class="logo">{ devquote }</span>
+    <span class="counter" id="counter">01 / 12</span>
+  </header>
+
+  <main>
+    <div class="card" id="card">
+      <div class="bracket left">[</div>
+      <div class="content">
+        <blockquote id="quote-text"></blockquote>
+        <cite id="quote-author"></cite>
+      </div>
+      <div class="bracket right">]</div>
+    </div>
+
+    <div class="controls">
+      <button id="prev-btn" class="btn" aria-label="Previous quote">←</button>
+      <button id="next-btn" class="btn primary" aria-label="Next quote">next_quote( ) →</button>
+    </div>
+
+    <div class="tag-row" id="tag-row"></div>
+  </main>
+
+  <footer>
+    <span>deployed on <a href="https://vercel.com" target="_blank">▲ vercel</a></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
