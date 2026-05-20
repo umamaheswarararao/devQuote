@@ -1,11 +1,11 @@
 :root {
-  --bg: #0a0a0f;
-  --surface: #11111a;
-  --border: #1e1e2e;
-  --accent: #c8f557;
-  --accent2: #57c8f5;
-  --text: #e8e8f0;
-  --muted: #5a5a7a;
+  --bg: #0d0a14;
+  --surface: #13101e;
+  --border: #2a1e3e;
+  --accent: #c084fc;
+  --accent2: #f472b6;
+  --text: #f0e8ff;
+  --muted: #6b5a8a;
   --font-mono: 'DM Mono', monospace;
   --font-display: 'Playfair Display', Georgia, serif;
 }
@@ -48,7 +48,7 @@ body::before {
   transform: translateX(-50%);
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(200, 245, 87, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(192, 132, 252, 0.08) 0%, transparent 70%);
   pointer-events: none;
   z-index: 0;
 }
